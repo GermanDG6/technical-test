@@ -1,6 +1,6 @@
 const isPalindrome = (text) => {
   let palindrome = text.split("").reverse().join("");
-  return palindrome === text;
+  return `Is ${text} a palindrome? ${palindrome === text}`;
 };
 
-console.log(isPalindrome("alberto"));
+console.log(isPalindrome("ana"));
