@@ -6,4 +6,4 @@ const multiplicationTable = (number) => {
   return result;
 };
 
-console.log(multiplicationTable(0));
+console.log(multiplicationTable(5));
