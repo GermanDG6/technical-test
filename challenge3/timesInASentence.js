@@ -4,7 +4,7 @@ const timesInASentence = (sentence, word) => {
     eachWord === word.toLowerCase() ? acc++ : acc;
     return acc;
   }, 0);
-  return numberOfTimes;
+  return `La palabra aparece ${numberOfTimes} veces en la frase`;
 };
 
 console.log(
