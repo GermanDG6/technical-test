@@ -5,6 +5,5 @@ const reverseString = (text) => {
   }
   return reversed;
 };
-let text = "Hola que tal";
 
 console.log(reverseString("victor"));
