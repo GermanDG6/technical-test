@@ -1,5 +1,5 @@
 const timesInASentence = (sentence, word) => {
-  let words = sentence.toLowerCase().split(" ");
+  let words = sentence.toLowerCase().replace(/[,.]/gi, "").split(" ");
   let numberOfTimes = words.reduce((acc, eachWord) => {
     eachWord === word.toLowerCase() ? acc++ : acc;
     return acc;
