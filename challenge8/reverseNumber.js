@@ -1,6 +1,6 @@
 const reverseNumber = (number) => {
   return Number(
-    number.toFixed().split("").reverse().join().replace(/[,]/gi, "")
+    number.toString().split("").reverse().join().replace(/[,]/gi, "")
   );
 };
 
