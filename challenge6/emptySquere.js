@@ -30,4 +30,4 @@ const makeSquare = (size) => {
   return square;
 };
 
-console.log(makeSquare(4));
+console.log(makeSquare(3));

@@ -1,0 +1,14 @@
+const pairsBetweenTwoNumbers = (firstNum, secondNum) => {
+  let numberList = [];
+  for (let i = firstNum; i <= secondNum; i++) {
+    numberList.push(i);
+  }
+  console.log(numberList);
+  let numberOfPairs = numberList.reduce((acc, number) => {
+    number % 2 == 0 ? acc++ : acc;
+    return acc;
+  }, 0);
+  return `El número de pares entre ${firstNum} y ${secondNum}, es ${numberOfPairs}`;
+};
+
+console.log(pairsBetweenTwoNumbers(5, 9));
