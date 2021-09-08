@@ -3,9 +3,8 @@ const pairsBetweenTwoNumbers = (firstNum, secondNum) => {
   for (let i = firstNum; i <= secondNum; i++) {
     numberList.push(i);
   }
-  console.log(numberList);
   let numberOfPairs = numberList.reduce((acc, number) => {
-    number % 2 == 0 ? acc++ : acc;
+    number % 2 === 0 ? acc++ : acc;
     return acc;
   }, 0);
   return `El número de pares entre ${firstNum} y ${secondNum}, es ${numberOfPairs}`;
