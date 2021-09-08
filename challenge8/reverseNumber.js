@@ -1,7 +1,7 @@
 const reverseNumber = (number) => {
-  return Number(
-    number.toString().split("").reverse().join().replace(/[,]/gi, "")
+  return (
+    parseInt(number.toString().split("").reverse().join("")) * Math.sign(number)
   );
 };
 
-console.log(reverseNumber(1000002));
+console.log(reverseNumber(-1000002));
