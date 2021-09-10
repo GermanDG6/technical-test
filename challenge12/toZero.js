@@ -9,4 +9,4 @@ const toZero = (num) => {
   return countDown;
 };
 
-console.log(toZero(80));
+console.log(toZero(180));
