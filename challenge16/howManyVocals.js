@@ -1,7 +1,6 @@
 const howManyVocals = (text) => {
-  let counter = 0;
+  let vocals = 0;
   for (let i = 0; i < text.length; i++) {
-    console.log(text[i]);
     if (
       text[i] === "a" ||
       text[i] === "e" ||
@@ -9,10 +8,19 @@ const howManyVocals = (text) => {
       text[i] === "o" ||
       text[i] === "u"
     ) {
-      counter++;
+      vocals++;
     }
   }
-  return `En el texto hay ${counter} vocales`;
+  return `En el texto hay ${vocals} vocales`;
 };
 
 console.log(howManyVocals("a jsdhfkjsd   ei   i   ii    "));
+
+// function with regex
+
+const vocalsInAText = (text) => {
+  let vocals = text.match(/[aeiou]/gi);
+  return `En el texto hay ${vocals.length} vocales`;
+};
+
+console.log(vocalsInAText("Hola soy German probando una funcion con regex"));
