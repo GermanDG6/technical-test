@@ -1,12 +1,13 @@
 const howManyVocals = (text) => {
   let vocals = 0;
+  const textLowerCase = text.toLowerCase();
   for (let i = 0; i < text.length; i++) {
     if (
-      text[i] === "a" ||
-      text[i] === "e" ||
-      text[i] === "i" ||
-      text[i] === "o" ||
-      text[i] === "u"
+      textLowerCase[i] === "a" ||
+      textLowerCase[i] === "e" ||
+      textLowerCase[i] === "i" ||
+      textLowerCase[i] === "o" ||
+      textLowerCase[i] === "u"
     ) {
       vocals++;
     }
@@ -14,13 +15,15 @@ const howManyVocals = (text) => {
   return `En el texto hay ${vocals} vocales`;
 };
 
-console.log(howManyVocals("a jsdhfkjsd   ei   i   ii    "));
+console.log(howManyVocals("jrtfr"));
 
 // function with regex
 
 const vocalsInAText = (text) => {
   let vocals = text.match(/[aeiou]/gi);
-  return `En el texto hay ${vocals.length} vocales`;
+  return vocals
+    ? `En el texto hay ${vocals.length} vocales`
+    : `En el texto hay 0 vocales`;
 };
 
 console.log(vocalsInAText("Hola soy German probando una funcion con regex"));
