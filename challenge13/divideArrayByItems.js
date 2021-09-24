@@ -1,10 +1,7 @@
 const divideArrayByItems = (arr, items) => {
   let arrDivided = [];
-  while (arr.length > 2) {
+  while (arr.length > 0) {
     arrDivided.push(arr.splice(0, items));
-  }
-  if (arr.length % items !== 0) {
-    arrDivided.push(arr.splice(-(arr.length % items)));
   }
   return arrDivided;
 };
