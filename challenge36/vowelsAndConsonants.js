@@ -1,9 +1,9 @@
 const vowelsAndConsonants = (text) => {
-  let vocals = 0;
-  let consonants = 0;
-  letters = text
-    .split("")
-    .filter((letter) => /[áéíóú\w]/gi.test(letter) && isNaN(letter));
+  let vocals = 0,
+    consonants = 0,
+    letters = text
+      .split("")
+      .filter((letter) => /[áéíóú\w]/gi.test(letter) && isNaN(letter));
   for (let i = 0; i < letters.length; i++) {
     if (/[áéíóúaeiou]/gi.test(letters[i])) {
       vocals++;
