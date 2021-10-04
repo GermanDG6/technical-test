@@ -7,9 +7,4 @@ const timesInASentence = (sentence, word) => {
   return `La palabra aparece ${numberOfTimes} veces en la frase`;
 };
 
-console.log(
-  timesInASentence(
-    "Numero de palabras palabras en una frase, PALABRAS",
-    "PALABRAS"
-  )
-);
+module.exports = timesInASentence;
