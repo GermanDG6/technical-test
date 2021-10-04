@@ -6,4 +6,4 @@ const reverseString = (text) => {
   return reversed;
 };
 
-console.log(reverseString("victor"));
+module.exports = reverseString;
