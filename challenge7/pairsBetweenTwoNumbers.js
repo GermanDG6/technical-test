@@ -1,5 +1,3 @@
-const { MODULEDECLARATION_TYPES } = require("@babel/types");
-
 const pairsBetweenTwoNumbers = (firstNum, secondNum) => {
   let numberList = [];
   for (let i = firstNum; i < secondNum; i++) {
