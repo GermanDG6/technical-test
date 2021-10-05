@@ -10,4 +10,4 @@ const makeStairs = (size) => {
   return stairs;
 };
 
-console.log(makeStairs(9));
+module.exports = makeStairs;
