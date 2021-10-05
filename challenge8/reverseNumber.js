@@ -4,4 +4,4 @@ const reverseNumber = (number) => {
   );
 };
 
-console.log(reverseNumber(-1000002));
+module.exports = reverseNumber;
