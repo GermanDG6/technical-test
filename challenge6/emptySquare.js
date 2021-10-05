@@ -13,7 +13,7 @@ const verticalLines = (size) => {
       ? (vertical += "*")
       : vertical.length === size - 1
       ? (vertical += "*")
-      : vertical.length > 0
+      : vertical.length > 0 && vertical.length < size - 1
       ? (vertical += " ")
       : vertical;
   }
@@ -30,4 +30,4 @@ const makeSquare = (size) => {
   return square;
 };
 
-console.log(makeSquare(3));
+module.exports = { makeSquare, horizontalLines, verticalLines };
