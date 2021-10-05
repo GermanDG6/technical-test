@@ -1,6 +1,8 @@
+const { MODULEDECLARATION_TYPES } = require("@babel/types");
+
 const pairsBetweenTwoNumbers = (firstNum, secondNum) => {
   let numberList = [];
-  for (let i = firstNum; i <= secondNum; i++) {
+  for (let i = firstNum; i < secondNum; i++) {
     numberList.push(i);
   }
   let numberOfPairs = numberList.reduce((acc, number) => {
@@ -10,4 +12,4 @@ const pairsBetweenTwoNumbers = (firstNum, secondNum) => {
   return `El número de pares entre ${firstNum} y ${secondNum}, es ${numberOfPairs}`;
 };
 
-console.log(pairsBetweenTwoNumbers(5, 9));
+module.exports = pairsBetweenTwoNumbers;
