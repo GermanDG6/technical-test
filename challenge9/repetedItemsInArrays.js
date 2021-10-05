@@ -5,4 +5,4 @@ const repetedItemsInArrays = (array1, array2) => {
   return repeted;
 };
 
-console.log(repetedItemsInArrays([1, 2, 3, "german"], [2, 3, 4, 6, "german"]));
+module.exports = repetedItemsInArrays;
