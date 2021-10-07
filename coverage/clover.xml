@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1633523374806" clover="3.2.0">
-  <project timestamp="1633523374807" name="All files">
-    <metrics statements="127" coveredstatements="127" conditionals="33" coveredconditionals="33" methods="13" coveredmethods="13" elements="173" coveredelements="173" complexity="0" loc="127" ncloc="127" packages="10" files="10" classes="10"/>
+<coverage generated="1633622435810" clover="3.2.0">
+  <project timestamp="1633622435811" name="All files">
+    <metrics statements="130" coveredstatements="130" conditionals="34" coveredconditionals="34" methods="14" coveredmethods="14" elements="178" coveredelements="178" complexity="0" loc="130" ncloc="130" packages="11" files="11" classes="11"/>
     <package name="challenge10">
       <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
       <file name="makeStairs.js" path="C:\Users\GermanDG\Desktop\Practicas\udemy\pruebas-tecnicas\challenge10\makeStairs.js">
@@ -50,9 +50,9 @@
       </file>
     </package>
     <package name="challenge38">
-      <metrics statements="23" coveredstatements="23" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
       <file name="squaredNumbersFromZero.js" path="C:\Users\GermanDG\Desktop\Practicas\udemy\pruebas-tecnicas\challenge38\squaredNumbersFromZero.js">
-        <metrics statements="23" coveredstatements="23" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -62,20 +62,29 @@
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="8" type="stmt"/>
-        <line num="11" count="8" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="15" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="16" count="8" type="stmt"/>
-        <line num="17" count="8" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="challenge39">
+      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="isEmail.js" path="C:\Users\GermanDG\Desktop\Practicas\udemy\pruebas-tecnicas\challenge39\isEmail.js">
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
     <package name="challenge4">
