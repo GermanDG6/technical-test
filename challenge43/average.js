@@ -6,4 +6,4 @@ const average = (arr) => {
   return total / arr.length;
 };
 
-console.log(average([0, 10]));
+module.exports = average;

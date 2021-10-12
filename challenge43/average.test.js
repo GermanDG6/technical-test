@@ -5,5 +5,5 @@ test("should be defined", () => {
 });
 
 test("should return a average of a number list", () => {
-  expect(average([1, 2, 3, 4, 5])).toBe(10);
+  expect(average([1, 2, 3, 4, 5])).toBe(3);
 });
